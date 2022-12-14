@@ -1,0 +1,58 @@
+.LeftPane {
+    text-align: left;
+    width: 33%;
+    height: 300px;
+    padding-left: 200px;
+    padding-top: 40px;
+    margin: 20px;
+}
+
+.LeftPaneText1 {
+    font-size: 28px;
+}
+
+.LeftPaneText2 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.LeftPaneText3 {
+    font-size: 15px;
+}
+
+.LeftPaneChatButton {
+    width: 250px;
+    height: 45px;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #05a8ff, #7ddaff);
+    cursor: pointer;
+}
+
+.BlinkingText {
+    height: 40px;
+    padding-left: 70px;
+    animation: blinker 3s linear infinite;
+}
+
+.LeftPaneLogo1 {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+}
+
+.LeftPaneText4 {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: right;
+    padding-left: 85px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0%;
+    }
+}
